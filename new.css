@@ -1,0 +1,432 @@
+body {
+  font-style: Arial;
+  background-image: url(https://media.giphy.com/media/3oEjHDPbHx75Oo5ec8/giphy.gif?cid=790b76110wmwat60h6hxt9p64rva5fx84lui3i6sm42oorng&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-duration: 6s;
+  color: white;
+}
+
+.second-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 7s; 
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.third-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 12rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 14s;
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.fourth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 15.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 21s;
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.fifth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 19rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 28s;
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.sixth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 22.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 35s; 
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.seventh-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 26rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 42s;   
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.eighth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 29.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 49s;   
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.ninth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 33rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 62s;   
+  animation-duration: 13s;
+  color: #ccc;
+}
+
+.tenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 36.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 75s;   
+  animation-duration: 14s;
+  color: #ccc;
+}
+
+.eleventh-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 40rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 90s;   
+  animation-duration: 15s;
+  color: #ccc;
+}
+
+.twelfth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 43.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 105s;   
+  animation-duration: 16s;
+  color: #ccc;
+}
+
+.thirteenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 47rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 120s;   
+  animation-duration: 17s;
+  color: #ccc;
+}
+
+.fourteenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 50.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 135s;   
+  animation-duration: 18s;
+  color: #ccc;
+}
+
+.fifteenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 54rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 150s;   
+  animation-duration: 19s;
+  color: #ccc;
+}
+
+.sixteenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 57.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 165s;   
+  animation-duration: 20s;
+  color: #ccc;
+}
+
+.seventeenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 61rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 180s;   
+  animation-duration: 21s;
+  color: #ccc;
+}
+
+.eighteenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 64.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 195s;   
+  animation-duration: 22s;
+  color: #ccc;
+}
+
+.nineteenth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 68rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 210s;   
+  animation-duration: 23s;
+  color: #ccc;
+}
+
+.twentieth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 71.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 225s;   
+  animation-duration: 24s;
+  color: #ccc;
+}
+
+.twenty-first-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 75rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 240s;   
+  animation-duration: 25s;
+  color: #ccc;
+}
+
+.twenty-second-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 78.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 255s;   
+  animation-duration: 26s;
+  color: #ccc;
+}
+
+.twenty-third-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 82rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 270s;   
+  animation-duration: 27s;
+  color: #ccc;
+}
+
+.twenty-fourth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 85.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 285s;   
+  animation-duration: 28s;
+  color: #ccc;
+}
+
+.twenty-fifth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 89rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 300s;   
+  animation-duration: 29s;
+  color: #ccc;
+}
+
+.twenty-sixth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 92.5rem;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 315s;   
+  animation-duration: forever;
+  color: #ccc;
+}
+
+
+
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+@media only screen and (max-width: 320px) and (max-height: 568px) {
+  body {
+      height: 100vh;
+  }
+
+  .header_text {
+      font-size: 20px;
+  }
+
+  img {
+      height: 60vh;
+  }
+
+  .btn {
+      padding: 10px 18px;
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 414px) and (max-height: 736px) {
+  body {
+      height: 90vh;
+  }
+
+  .header_text {
+      font-size: 28px;
+  }
+
+  img {
+      height: 60vh;
+  }
+
+  .btn {
+      padding: 15px 25px;
+      font-size: 14px;
+  }
+}
